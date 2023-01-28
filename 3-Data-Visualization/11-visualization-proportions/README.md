@@ -12,7 +12,7 @@ In this lesson, you will use a different nature-focused dataset to visualize pro
 
 > 💡 A very interesting project called [Charticulator](https://charticulator.com) by Microsoft Research offers a free drag and drop interface for data visualizations. In one of their tutorials they also use this mushroom dataset! So you can explore the data and learn the library at the same time: [Charticulator tutorial](https://charticulator.com/tutorials/tutorial4.html).
 
-## [Pre-lecture quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/20)
+## [Pre-lecture quiz](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/20)
 
 ## Get to know your mushrooms 🍄
 
@@ -57,6 +57,12 @@ Take this data and convert the 'class' column to a category:
 cols = mushrooms.select_dtypes(["object"]).columns
 mushrooms[cols] = mushrooms[cols].astype('category')
 ```
+
+```python
+edibleclass=mushrooms.groupby(['class']).count()
+edibleclass
+```
+
 Now, if you print out the mushrooms data, you can see that it has been grouped into categories according to the poisonous/edible class:
 
 
@@ -78,7 +84,7 @@ plt.show()
 ```
 Voila, a pie chart showing the proportions of this data according to these two classes of mushrooms. It's quite important to get the order of the labels correct, especially here, so be sure to verify the order with which the label array is built!
 
-![pie chart](images/pie1.png)
+![pie chart](images/pie1-wb.png)
 
 ## Donuts!
 
@@ -108,7 +114,7 @@ plt.title('Mushroom Habitats')
 plt.show()
 ```
 
-![donut chart](images/donut.png)
+![donut chart](images/donut-wb.png)
 
 This code draws a chart and a center circle, then adds that center circle in the chart. Edit the width of the center circle by changing `0.40` to another value.
 
@@ -164,7 +170,7 @@ In this lesson, you learned three ways to visualize proportions. First, you need
 ## 🚀 Challenge
 
 Try recreating these tasty charts in [Charticulator](https://charticulator.com).
-## [Post-lecture quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/21)
+## [Post-lecture quiz](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/21)
 
 ## Review & Self Study
 

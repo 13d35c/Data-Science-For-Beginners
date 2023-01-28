@@ -4,7 +4,7 @@
 |:---:|
 |Working with NoSQL Data - _Sketchnote by [@nitya](https://twitter.com/nitya)_ |
 
-## [Pre-Lecture Quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/10)
+## [Pre-Lecture Quiz](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/10)
 
 Data is not limited to relational databases. This lesson focuses on non-relational data and will cover the basics of spreadsheets and NoSQL.
 
@@ -49,7 +49,7 @@ NoSQL is an umbrella term for the different ways to store non-relational data an
 
 ![Graphical representation of a columnar data store showing a customer database with two column families named Identity and Contact Info](images/columnar-db.png)
 
-[Columnar](https://docs.microsoft.com/en-us/azure/architecture/data-guide/big-data/non-relational-data#columnar-data-stores) data stores organizes data into columns and rows like a relational data structure but each column is divided into groups called a column family, where the all the data under one column is related and can be retrieved and changed in one unit. 
+[Columnar](https://docs.microsoft.com/en-us/azure/architecture/data-guide/big-data/non-relational-data#columnar-data-stores) data stores organizes data into columns and rows like a relational data structure but each column is divided into groups called a column family, where all the data under one column is related and can be retrieved and changed in one unit. 
 
 
 ### Document Data Stores with the Azure Cosmos DB 
@@ -133,7 +133,7 @@ There is a `TwitterData.json` file that you can upload to the SampleDB database.
 Try to run a few select queries to find the documents that have Microsoft in the text field. Hint: try to use the [LIKE keyword](https://docs.microsoft.com/en-us/azure/cosmos-db/sql/sql-query-keywords#using-like-with-the--wildcard-character)
 
 
-## [Post-Lecture Quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/11)
+## [Post-Lecture Quiz](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/11)
 
 
 

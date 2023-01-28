@@ -11,7 +11,7 @@ We started with definitions of data science and ethics, explored various tools &
 In this lesson, we'll explore real-world applications of data science across industry and dive into specific examples in the research, digital humanities, and sustainability, contexts. We'll look at student project opportunities and conclude with useful resources to help you continue your learning journey!
 ## Pre-Lecture Quiz
 
-[Pre-lecture quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/38)
+[Pre-lecture quiz](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/38)
 ## Data Science + Industry
 
 Thanks to the democratization of AI, developers are now finding it easier to design and integrate AI-driven decision-making and data-driven insights into user experiences and development workflows. Here are a few examples of how data science is "applied" to real-world applications across the industry:
@@ -26,7 +26,7 @@ Thanks to the democratization of AI, developers are now finding it easier to des
 
  * [Sports Analytics](https://towardsdatascience.com/scope-of-analytics-in-sports-world-37ed09c39860) - focuses on _predictive analytics_ (team and player analysis - think [Moneyball](https://datasciencedegree.wisconsin.edu/blog/moneyball-proves-importance-big-data-big-ideas/) - and fan management) and _data visualization_ (team & fan dashboards, games etc.) with applications like talent scouting, sports gambling and inventory/venue management.
 
- * [Data Science in Banking](https://data-flair.training/blogs/data-science-in-banking/) - highlights the value of data science in the finance industry with applications ranging from risk modeling and fraud detction, to customer segmentation, real-time prediction and recommender systems. Predictive analytics also drive critical measures like [credit scores](https://dzone.com/articles/using-big-data-and-predictive-analytics-for-credit).
+ * [Data Science in Banking](https://data-flair.training/blogs/data-science-in-banking/) - highlights the value of data science in the finance industry with applications ranging from risk modeling and fraud detection, to customer segmentation, real-time prediction and recommender systems. Predictive analytics also drive critical measures like [credit scores](https://dzone.com/articles/using-big-data-and-predictive-analytics-for-credit).
 
  * [Data Science in Healthcare](https://data-flair.training/blogs/data-science-in-healthcare/) - highlights applications like medical imaging (e.g., MRI, X-Ray, CT-Scan), genomics (DNA sequencing), drug development (risk assessment, success prediction), predictive analytics (patient care & supply logistics), disease tracking & prevention etc.
 
@@ -51,7 +51,7 @@ Let's look at one example - the [MIT Gender Shades Study](http://gendershades.or
 
  * **What:** The objective of the research project was to _evaluate bias present in automated facial analysis algorithms and datasets_ based on gender and skin type. 
  * **Why:** Facial analysis is used in areas like law enforcement, airport security, hiring systems and more - contexts where inaccurate classifications (e.g., due to bias) can cause potential economic and social harms to affected individuals or groups. Understanding (and eliminating or mitigating) biases is key to fairness in usage.
- * **How:** Researchers recongized that existing benchmarks used predominantly lighter-skinned subjects, and curated a new data set (1000+ images) that was _more balanced_ by gender and skin type. The data set was used to evaluate the accuracy of three gender classification products (from Microsoft, IBM & Face++). 
+ * **How:** Researchers recognized that existing benchmarks used predominantly lighter-skinned subjects, and curated a new data set (1000+ images) that was _more balanced_ by gender and skin type. The data set was used to evaluate the accuracy of three gender classification products (from Microsoft, IBM & Face++). 
 
 Results showed that though overall classification accuracy was good, there was a noticeable difference in error rates between various subgroups - with **misgendering** being higher for females or persons with darker skin types, indicative of bias.
 
@@ -129,7 +129,7 @@ Here are some examples of data science student projects to inspire you.
 Search for articles that recommend data science projects that are beginner friendly - like [these 50 topic areas](https://www.upgrad.com/blog/data-science-project-ideas-topics-beginners/) or [these 21 project ideas](https://www.intellspot.com/data-science-project-ideas) or [these 16 projects with source code](https://data-flair.training/blogs/data-science-project-ideas/) that you can deconstruct and remix. And don't forget to blog about your learning journeys and share your insights with all of us.
 ## Post-Lecture Quiz
 
-[Post-lecture quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/39)
+[Post-lecture quiz](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/39)
 ## Review & Self Study
 
 Want to explore more use cases? Here are a few relevant articles:

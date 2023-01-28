@@ -8,7 +8,7 @@ Data is facts, information, observations and measurements that are used to make 
 
 This lesson focuses on identifying and classifying data by its characteristics and its sources.
 
-## [Pre-Lecture Quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/4)
+## [Pre-Lecture Quiz](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/4)
 ## How Data is Described
 **Raw data** is data that has come from its source in its initial state and has not been analyzed or organized. In order to make sense of what is happening with a dataset, it needs to be organized into a format that can be understood by humans as well as the technology they may use to analyze it further. The structure of a dataset describes how it's organized and can be classified at structured, unstructured and semi-structured. These types of structure will vary, depending on the source but will ultimately fit in these three categories. 
 ### Quantitative Data
@@ -25,14 +25,14 @@ A benefit of structured data is that it can be organized in such a way that it c
 Examples of structured data: spreadsheets, relational databases, phone numbers, bank statements
 
 ### Unstructured Data
-Unstructured data typically cannot be categorized into into rows or columns and doesn't contain a format or set of rules to follow. Because unstructured data has less restrictions on its structure it's easier to add new information in comparison to a structured dataset. If a sensor capturing data on barometric pressure every 2 minutes has received an update that now allows it to measure and record temperature, it doesn't require altering the existing data if it's unstructured. However, this may make analyzing or investigating this type of data take longer. For example, a scientist who wants to find the average temperature of the previous month from the sensors data, but discovers that the sensor recorded an "e" in some of its recorded data to note that it was broken instead of a typical number, which means the data is incomplete.
+Unstructured data typically cannot be categorized into rows or columns and doesn't contain a format or set of rules to follow. Because unstructured data has less restrictions on its structure it's easier to add new information in comparison to a structured dataset. If a sensor capturing data on barometric pressure every 2 minutes has received an update that now allows it to measure and record temperature, it doesn't require altering the existing data if it's unstructured. However, this may make analyzing or investigating this type of data take longer. For example, a scientist who wants to find the average temperature of the previous month from the sensors data, but discovers that the sensor recorded an "e" in some of its recorded data to note that it was broken instead of a typical number, which means the data is incomplete.
 
 Examples of unstructured data: text files, text messages, video files
 
 ### Semi-structured
 Semi-structured data has features that make it a combination of structured and unstructured data. It doesn't typically conform to a format of rows and columns but is organized in a way that is considered structured and may follow a fixed format or set of rules. The structure will vary between sources, such as a well defined hierarchy to something more flexible that allows for easy integration of new information. Metadata are indicators that help decide how the data is organized and stored and will have various names, based on the type of data. Some common names for metadata are tags, elements, entities and attributes. For example, a typical email message will have a subject, body and a set of recipients and can be organized by whom or when it was sent. 
 
-Examples of unstructured data: HTML, CSV files, JavaScript Object Notation (JSON)
+Examples of semi-structured data: HTML, CSV files, JavaScript Object Notation (JSON)
 
 ## Sources of Data 
 
@@ -56,7 +56,7 @@ Kaggle is an excellent source of open datasets. Use the [dataset search tool](ht
 - Is the data quantitative or qualitative?
 - Is the data structured, unstructured, or semi-structured?
 
-## [Post-Lecture Quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/5)
+## [Post-Lecture Quiz](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/5)
 
 
 

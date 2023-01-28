@@ -6,7 +6,7 @@
 
 In the previous lesson, you learned some interesting facts about a dataset about the birds of Minnesota. You found some erroneous data by visualizing outliers and looked at the differences between bird categories by their maximum length.
 
-## [Pre-lecture quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/18)
+## [Pre-lecture quiz](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/18)
 ## Explore the birds dataset
 
 Another way to dig into data is by looking at its distribution, or how the data is organized along an axis. Perhaps, for example, you'd like to learn about the general distribution, for this dataset, of the maximum wingspan or maximum body mass for the birds of Minnesota. 
@@ -20,6 +20,15 @@ birds = pd.read_csv('../../data/birds.csv')
 birds.head()
 ```
 
+|      | Name                         | ScientificName         | Category              | Order        | Family   | Genus       | ConservationStatus | MinLength | MaxLength | MinBodyMass | MaxBodyMass | MinWingspan | MaxWingspan |
+| ---: | :--------------------------- | :--------------------- | :-------------------- | :----------- | :------- | :---------- | :----------------- | --------: | --------: | ----------: | ----------: | ----------: | ----------: |
+|    0 | Black-bellied whistling-duck | Dendrocygna autumnalis | Ducks/Geese/Waterfowl | Anseriformes | Anatidae | Dendrocygna | LC                 |        47 |        56 |         652 |        1020 |          76 |          94 |
+|    1 | Fulvous whistling-duck       | Dendrocygna bicolor    | Ducks/Geese/Waterfowl | Anseriformes | Anatidae | Dendrocygna | LC                 |        45 |        53 |         712 |        1050 |          85 |          93 |
+|    2 | Snow goose                   | Anser caerulescens     | Ducks/Geese/Waterfowl | Anseriformes | Anatidae | Anser       | LC                 |        64 |        79 |        2050 |        4050 |         135 |         165 |
+|    3 | Ross's goose                 | Anser rossii           | Ducks/Geese/Waterfowl | Anseriformes | Anatidae | Anser       | LC                 |      57.3 |        64 |        1066 |        1567 |         113 |         116 |
+|    4 | Greater white-fronted goose  | Anser albifrons        | Ducks/Geese/Waterfowl | Anseriformes | Anatidae | Anser       | LC                 |        64 |        81 |        1930 |        3310 |         130 |         165 |
+
+
 In general, you can quickly look at the way data is distributed by using a scatter plot as we did in the previous lesson:
 
 ```python
@@ -31,6 +40,8 @@ plt.xlabel('Max Length')
 
 plt.show()
 ```
+![max length per order](images/scatter-wb.png)
+
 This gives an overview of the general distribution of body length per bird Order, but it is not the optimal way to display true distributions. That task is usually handled by creating a Histogram.
 ## Working with histograms
 
@@ -40,7 +51,7 @@ Matplotlib offers very good ways to visualize data distribution using Histograms
 birds['MaxBodyMass'].plot(kind = 'hist', bins = 10, figsize = (12,12))
 plt.show()
 ```
-![distribution over the entire dataset](images/dist1.png)
+![distribution over the entire dataset](images/dist1-wb.png)
 
 As you can see, most of the 400+ birds in this dataset fall in the range of under 2000 for their Max Body Mass. Gain more insight into the data by changing  the `bins` parameter to a higher number, something like 30:
 
@@ -48,7 +59,7 @@ As you can see, most of the 400+ birds in this dataset fall in the range of unde
 birds['MaxBodyMass'].plot(kind = 'hist', bins = 30, figsize = (12,12))
 plt.show()
 ```
-![distribution over the entire dataset with larger bins param](images/dist2.png)
+![distribution over the entire dataset with larger bins param](images/dist2-wb.png)
 
 This chart shows the distribution in a bit more granular fashion. A chart less skewed to the left could be created by ensuring that you only select data within a given range:
 
@@ -59,7 +70,7 @@ filteredBirds = birds[(birds['MaxBodyMass'] > 1) & (birds['MaxBodyMass'] < 60)]
 filteredBirds['MaxBodyMass'].plot(kind = 'hist',bins = 40,figsize = (12,12))
 plt.show()     
 ```
-![filtered histogram](images/dist3.png)
+![filtered histogram](images/dist3-wb.png)
 
 ✅ Try some other filters and data points. To see the full distribution of the data, remove the `['MaxBodyMass']` filter to show labeled distributions.
 
@@ -76,7 +87,7 @@ hist = ax.hist2d(x, y)
 ```
 There appears to be an expected correlation between these two elements along an expected axis, with one particularly strong point of convergence:
 
-![2D plot](images/2D.png)
+![2D plot](images/2D-wb.png)
 
 Histograms work well by default for numeric data. What if you need to see distributions according to text data? 
 ## Explore the dataset for distributions using text data 
@@ -111,11 +122,11 @@ plt.hist(x4, **kwargs, color='green', label='Near Threatened')
 plt.hist(x5, **kwargs, color='blue', label='Vulnerable')
 plt.hist(x6, **kwargs, color='gray', label='Least Concern')
 
-plt.gca().set(title='Conservation Status', ylabel='Max Body Mass')
+plt.gca().set(title='Conservation Status', ylabel='Min Wingspan')
 plt.legend();
 ```
 
-![wingspan and conservation collation](images/histogram-conservation.png)
+![wingspan and conservation collation](images/histogram-conservation-wb.png)
 
 There doesn't seem to be a good correlation between minimum wingspan and conservation status. Test other elements of the dataset using this method. You can try different filters as well. Do you find any correlation?
 
@@ -181,7 +192,7 @@ Perhaps it's worth researching whether the cluster of 'Vulnerable' birds accordi
 
 Histograms are a more sophisticated type of chart than basic scatterplots, bar charts, or line charts. Go on a search on the internet to find good examples of the use of histograms. How are they used, what do they demonstrate, and in what fields or areas of inquiry do they tend to be used?
 
-## [Post-lecture quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/19)
+## [Post-lecture quiz](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/19)
 
 ## Review & Self Study
 

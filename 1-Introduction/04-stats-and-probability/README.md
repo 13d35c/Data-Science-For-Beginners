@@ -9,7 +9,7 @@ Statistics and Probability Theory are two highly related areas of Mathematics th
 [![Intro Video](images/video-prob-and-stats.png)](https://youtu.be/Z5Zy85g4Yjw)
 
 
-## [Pre-lecture quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/6)
+## [Pre-lecture quiz](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/6)
 
 ## Probability and Random Variables
 
@@ -25,7 +25,7 @@ In the case of discrete random variables, it is easy to describe the probability
 
 The most well-known discrete distribution is **uniform distribution**, in which there is a sample space of N elements, with equal probability of 1/N for each of them. 
 
-It is more difficult to describe the probability distribution of a continuous variable, with values drawn from some interval [a,b], or the whole set of real numbers &Ropf;. Consider the case of bus arrival time. In fact, for each exact arrival time $t$, the probability of a bus arriving at exactly that time is 0!
+It is more difficult to describe the probability distribution of a continuous variable, with values drawn from some interval [a,b], or the whole set of real numbers &Ropf;. Consider the case of bus arrival time. In fact, for each exact arrival time *t*, the probability of a bus arriving at exactly that time is 0!
 
 > Now you know that events with 0 probability happen, and very often! At least each time when the bus arrives!
 
@@ -240,17 +240,17 @@ While this is definitely not exhaustive list of topics that exist within probabi
 ## 🚀 Challenge
 
 Use the sample code in the notebook to test other hypothesis that: 
-1. First basemen and older that second basemen
-2. First basemen and taller than third basemen
+1. First basemen are older than second basemen
+2. First basemen are taller than third basemen
 3. Shortstops are taller than second basemen
 
-## [Post-lecture quiz](https://red-water-0103e7a0f.azurestaticapps.net/quiz/7)
+## [Post-lecture quiz](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/7)
 
 ## Review & Self Study
 
 Probability and statistics is such a broad topic that it deserves its own course. If you are interested to go deeper into theory, you may want to continue reading some of the following books:
 
-1. [Carlos Fernanderz-Granda](https://cims.nyu.edu/~cfgranda/) from New York University has great lecture notes [Probability and Statistics for Data Science](https://cims.nyu.edu/~cfgranda/pages/stuff/probability_stats_for_DS.pdf) (available online)
+1. [Carlos Fernandez-Granda](https://cims.nyu.edu/~cfgranda/) from New York University has great lecture notes [Probability and Statistics for Data Science](https://cims.nyu.edu/~cfgranda/pages/stuff/probability_stats_for_DS.pdf) (available online)
 1. [Peter and Andrew Bruce. Practical Statistics for Data Scientists.](https://www.oreilly.com/library/view/practical-statistics-for/9781491952955/) [[sample code in R](https://github.com/andrewgbruce/statistics-for-data-scientists)]. 
 1. [James D. Miller. Statistics for Data Science](https://www.packtpub.com/product/statistics-for-data-science/9781788290678) [[sample code in R](https://github.com/PacktPublishing/Statistics-for-Data-Science)]
 
